@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/blueprint-css@3.1.1/dist/blueprint.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/2b2a8fda95.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./index.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="../bower_components/jquery.counterup/jquery.counterup.min.js"></script>
+  </head>
+  <body>
+    <div class="background-container">
+      <header>
+        <img
+          class="portada-logo"
+          src="../images//logo.svg"
+          alt="Logo ovejabeja"
+        />
+      </header>
+
+      <!-- PORTADA -->
+      <div class="portada-container">
+        <div bp="grid">
+          <div bp="12 6@md" class="portada-image-container">
+            <img src="../images/portada.svg" alt="Imágen de portada" />
+          </div>
+          <div bp="12 6@md" class="portada-text-container">
+            <h6>PROMOCION WEB</h6>
+            <h1>Página web por 699€*</h1>
+            <h5>
+              Diseño con plantilla Wordpress
+              <span class="caption">* Precio sin IVA</span>
+            </h5>
+            <p>
+              Contrata tu página web corporativa en Wordpress con la ayuda de un
+              equipo profesional a tu mano.
+            </p>
+            <div class="portada-counter-container">
+              <div class="portada-counter">
+                <span
+                  class="counter portada-counter-number"
+                  data-counterup-time="600"
+                  >20</span
+                >
+                <span class="portada-counter-text"> Días </span>
+              </div>
+              <div class="portada-counter">
+                <span
+                  class="counter portada-counter-number"
+                  data-counterup-time="600"
+                >
+                  20
+                </span>
+                <span class="portada-counter-text"> Horas </span>
+              </div>
+              <div class="portada-counter">
+                <span
+                  class="counter portada-counter-number"
+                  data-counterup-time="600"
+                >
+                  20
+                </span>
+                <span class="portada-counter-text"> Minutos </span>
+              </div>
+              <div class="portada-counter">
+                <span
+                  class="counter portada-counter-number"
+                  data-counterup-time="600"
+                >
+                  20
+                </span>
+                <span class="portada-counter-text"> Segundos </span>
+              </div>
+            </div>
+            <button class="primary portada-cta">Contrata</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- INCLUYE -->
+
+      <div class="servicio-incluye">
+        <div bp="grid">
+          <div bp="12 6@md" class="servicio-text-container">
+            <div class="servicio-title">
+              <span class="caption"> Especificaciones </span>
+              <h1>Incluye</h1>
+            </div>
+            <div class="servicio-container">
+              <div class="servicio-item-container">
+                <img
+                  src="../icons/web-corporativa.svg"
+                  alt="Icono pintura digital"
+                />
+                <div class="servicio-item-text">
+                  <h6>PÁGINA WEB CORPORATIVA EN ESPAÑOL</h6>
+                  <p>Un diseño corporativo con una plantilla personalizada.</p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img
+                  src="../icons/estructura.svg"
+                  alt="Icono pintura digital"
+                />
+                <div class="servicio-item-text">
+                  <h6>ESTRUCTURA WEB</h6>
+                  <p>Una perfecta navegación y usabilidad.</p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img src="../icons/clock.svg" alt="Icono pintura digital" />
+                <div class="servicio-item-text">
+                  <h6>TIEMPO DE PRODUCCIÓN EXPRESS</h6>
+                  <p>
+                    Una vez recibida toda la información, textos e imágenes. La
+                    web se entrega en 4 semanas.
+                  </p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img src="../icons/imagenes.svg" alt="Icono pintura digital" />
+                <div class="servicio-item-text">
+                  <h6>HASTA 10 IMÁGENES</h6>
+                  <p>Adquiridas por nosotros de bancos de imágenes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div bp="12 6@md" class="servicio-image-container right">
+            <img
+              src="../images/especificaciones-image.svg"
+              alt="Ilustracion de la sección"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- ADEMAS -->
+
+      <div class="servicio-ademas">
+        <div bp="grid">
+          <div bp="12 6@md" class="servicio-image-container">
+            <img
+              src="../images/ademas-image.svg"
+              alt="Ilustracion de la sección"
+            />
+          </div>
+          <div bp="12 6@md first">
+            <div class="servicio-title">
+              <h1>Además</h1>
+            </div>
+            <div class="servicio-container">
+              <div class="servicio-item-container">
+                <img
+                  src="../icons/pintura-digital.svg"
+                  alt="Icono pintura digital"
+                />
+                <div class="servicio-item-text">
+                  <h6>RETOQUE FOTOGRÁFICO BÁSICO</h6>
+                  <p>
+                    Retocamos las fotografías que se van utilizar en la web.
+                  </p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img src="../icons/redes.svg" alt="Icono pintura digital" />
+                <div class="servicio-item-text">
+                  <h6>ENLACE A REDES SOCIALES</h6>
+                  <p>Vinculamos tu web a tus redes, para mas engagement.</p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img
+                  src="../icons/optimizacion-textos.svg"
+                  alt="Icono pintura digital"
+                />
+                <div class="servicio-item-text">
+                  <h6>OPTIMIZACIÓN DE TEXTOS</h6>
+                  <p>
+                    Perfecta compresión basada en la información proporcionada
+                    por el cliente.
+                  </p>
+                </div>
+              </div>
+              <div class="servicio-item-container">
+                <img src="../icons/cms.svg" alt="Icono pintura digital" />
+                <div class="servicio-item-text">
+                  <h6>CMS WORDPRESS CON PLANTILLA</h6>
+                  <p>Utilizamos unas plantillas complejas de Wordpress.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPCIONAL -->
+
+      <div class="opcional-container">
+        <div class="opcional-title">
+          <span class="caption">OPCIONAL</span>
+          <h1>Optimización SEO</h1>
+          <div class="opcional-subtitle">
+            <span>Con un precio especial de 350 €*</span>
+            <span>Precio sin IVA</span>
+          </div>
+        </div>
+
+        <div class="opcional-items-container">
+          <div class="opcional-item-container">
+            <img src="../icons/lookfor.svg" alt="" />
+            <h6>PALABRAS CLAVES</h6>
+            <p>
+              Búsqueda y selección de palabras claves pertinentes para mejorar
+              el posicionamiento de la web.
+            </p>
+          </div>
+          <div class="opcional-item-container">
+            <img src="../icons/claves.svg" alt="" />
+            <h6>PALABRAS CLAVES</h6>
+            <p>
+              Insertar en cada página la estructura y el contenido pertinente.
+            </p>
+          </div>
+          <div class="opcional-item-container">
+            <img src="../icons/lenguaje.svg" alt="" />
+            <h6>ESTRUCTURA OPTIMIZADA</h6>
+            <p>
+              H1, H2, H3, Title, Meta, Interlinking, contenido de páginas,
+              favorable para SEO.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACTO -->
+
+    <div bp="grid" class="contacto-container">
+      <div bp="12 6@md" class="contacto-form-container">
+        <form action="">
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+          <input
+            type="tel"
+            name="teléfono"
+            id="teléfono"
+            placeholder="Teléfono"
+          />
+          <input type="email" name="correo" id="correo" placeholder="Correo" />
+          <textarea
+            name="consulta"
+            id="consulta"
+            placeholder="Consulta"
+            rows="5"
+          ></textarea>
+          <div class="checkbox-container">
+            <input type="checkbox" name="intolerancias" />
+            <div class="checkbox-square"></div>
+            <span class="checkbox-label"
+              >Entiendo y doy mi consentimiento para enviar estos datos y para
+              solicitar los servicios.</span
+            >
+          </div>
+          <button class="primary" type="submit">Hacer pedido</button>
+        </form>
+      </div>
+      <div bp="12 6@md" class="contacto-item-container">
+        <div class="contacto-item">
+          <img src="../icons/direction.svg" alt="" />
+          <div class="contacto-item-text">
+            <span>Dirección</span>
+            <span>Calle Palleter nº 47 pta. 1, </span>
+            <span>46008 – Valencia </span>
+            <span>ESPAÑA (SPAIN)</span>
+          </div>
+        </div>
+        <div class="contacto-item">
+          <img src="../icons/telefono-movil.svg" alt="" />
+          <div class="contacto-item-text">
+            <span>Teléfono</span>
+            <span>(+34) 960 48 12 62 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer-container">
+      <img
+        class="footer-logo-oveja"
+        src="../images/logo.svg"
+        alt="Logo ovejabeja"
+      />
+      <img
+        class="footer-logo-levenant"
+        src="../images/diseno-levenant.svg"
+        alt="Logo ovejabeja"
+      />
+      <div class="footer-social-links">
+        <img src="../icons/insta.svg" alt="Logo instagram" />
+        <img src="../icons/fb.svg" alt="Logo facebook" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190">
+  <g id="Grupo_894" data-name="Grupo 894" transform="translate(-883 -3433)">
+    <g id="Elipse_12" data-name="Elipse 12" transform="translate(883 3433)" stroke="#f1ad00" stroke-width="1">
+      <circle cx="95" cy="95" r="95" stroke="none"/>
+      <circle cx="95" cy="95" r="94.5" fill="none"/>
+    </g>
+    <g id="Grupo_858" data-name="Grupo 858" transform="translate(-4.5 -4.5)">
+      <path id="Trazado_2236" data-name="Trazado 2236" d="M35.779,64.707a28.923,28.923,0,1,1,20.456-8.461,28.923,28.923,0,0,1-20.456,8.461Zm0-54.819A25.894,25.894,0,1,0,54.1,17.465,25.894,25.894,0,0,0,35.779,9.888Z" transform="translate(947.465 3497.069)" fill="#f1ad00"/>
+      <path id="Trazado_2237" data-name="Trazado 2237" d="M50.346,93.855A43.5,43.5,0,1,1,81.109,81.13,43.5,43.5,0,0,1,50.346,93.855Zm0-82.439A38.941,38.941,0,1,0,77.9,22.809a38.941,38.941,0,0,0-27.55-11.394Z" transform="translate(932.891 3482.495)" fill="#f1ad00" stroke="#000" stroke-width="1.5"/>
+      <line id="Línea_2" data-name="Línea 2" x1="31.391" transform="translate(922.5 3532.705)" fill="none" stroke="#efac28" stroke-linecap="round" stroke-width="3"/>
+      <line id="Línea_3" data-name="Línea 3" x1="31.391" transform="translate(1011.261 3532.705)" fill="none" stroke="#efac28" stroke-linecap="round" stroke-width="3"/>
+      <line id="Línea_4" data-name="Línea 4" y2="25.979" transform="translate(983.117 3477.5)" fill="none" stroke="#efac28" stroke-linecap="round" stroke-width="3"/>
+      <line id="Línea_5" data-name="Línea 5" y2="25.979" transform="translate(983.117 3561.931)" fill="none" stroke="#efac28" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
