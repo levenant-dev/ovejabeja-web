@@ -215,6 +215,13 @@ input:-webkit-autofill:active {
   margin: 0;
 }
 
+@media (min-width: 1600px) {
+  .background-container {
+    padding: 2rem 2rem;
+    background-image: url("./images/background-hd.png");
+  }
+}
+
 @media (max-width: 720px) {
   .background-container {
     padding: 2rem 2rem;
