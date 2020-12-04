@@ -840,6 +840,12 @@ header {
   align-items: flex-start;
   margin: auto;
 }
+
+.contacto-anchor {
+  text-decoration: none;
+  color: unset;
+}
+
 .contacto-item {
   display: flex;
 }
