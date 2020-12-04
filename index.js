@@ -8,6 +8,7 @@ $(".checkbox-container").click(function () {
 
 $(".counter").counterUp();
 
+
 // Date countdown:
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
@@ -37,12 +38,3 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-
-window.addEventListener("load", function () {
-  $(".servicio-incluye").waypoint(function () {
-    var svgObject = document.getElementById("svg-incluye").contentDocument;
-    var svg = svgObject.getElementById("svg-globo");
-    svg.classList.add("animate");
-    console.log(svg);
-  });
-});
