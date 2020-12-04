@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580.248" height="735.922">
+<svg class="svg-especificaciones-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="580.248" height="735.922">
+  <style>
+    @import url("../svg-animations.css");
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <script src="../index.js"></script>
+
   <defs>
     <clipPath id="prefix__b">
       <path data-name="Trazado 1381"
@@ -172,6 +180,36 @@
     </linearGradient>
   </defs>
   <g data-name="Grupo 415">
+    <g class="svg-globo" id="svg-globo" data-name="Grupo 408">
+      <path data-name="Rectángulo 35" fill="#c4d1e1" d="M72.784 108.577h3.028v45.513h-3.028z" />
+      <g data-name="Grupo 230">
+        <g data-name="Grupo 229" style="isolation:isolate">
+          <g data-name="Grupo 226">
+            <path data-name="Trazado 1001" d="M49.856 151.588l-.209 43.144-18.946-7.672.215-43.154z" fill="#96a9bd" />
+          </g>
+          <g data-name="Grupo 227">
+            <path data-name="Trazado 1002" d="M86.592 148.402l-36.736 3.186-18.94-7.681 36.73-3.177z" fill="#e4eef3" />
+          </g>
+          <g data-name="Grupo 228">
+            <path data-name="Trazado 1003" d="M86.376 191.556l-36.729 3.176.209-43.144 36.736-3.186z" fill="#c4d1e1" />
+          </g>
+        </g>
+      </g>
+      <path data-name="Rectángulo 36" fill="#96a9bd" d="M39.589 108.577h3.041v45.513h-3.041z" />
+      <g data-name="Grupo 414">
+        <path data-name="Trazado 1210" d="M57.995 121.763l59.075-21.831-.308-72.843L56.425-.004.005 27.433l.511 74.329z"
+          fill="#f7d350" />
+        <path data-name="Trazado 1211" d="M57.996 121.763l59.075-21.831-.309-72.843L56.425-.004l34.312 58.659z"
+          fill="#d6b033" />
+        <path data-name="Trazado 1212" d="M90.411 58.096L56.424-.004 16.89 56.717z" fill="#ffe482" />
+        <path data-name="Trazado 1213" d="M56.425-.004L.005 27.433l15.333 28.346z" fill="#fddd64" />
+        <path data-name="Trazado 1214" d="M14.595 56.86l-14.6-29.427.511 74.329z" fill="#f7d350" />
+        <path data-name="Trazado 1215" d="M91.154 57.018l25.607-29.929L56.425-.004z" fill="#e6c44e" />
+        <path data-name="Trazado 1216" d="M117.069 99.932l-.308-72.843-24.727 31.144z" fill="#cbad4e" />
+        <path data-name="Trazado 1217" d="M57.995 121.763L15.61 58.413.51 101.762z" fill="#fbdb59" />
+        <path data-name="Trazado 1218" d="M57.995 121.763l59.075-21.831-25.673-40.855z" fill="#d3b34e" />
+      </g>
+    </g>
     <g data-name="Grupo 410">
       <g data-name="Grupo 370">
         <g data-name="Grupo 369" style="isolation:isolate">
@@ -1495,36 +1533,7 @@
         <path data-name="Rectángulo 155" fill="#96a9bd" d="M125.878 261.544h48.019v3.849h-48.019z" />
       </g>
     </g>
-    <g data-name="Grupo 408">
-      <path data-name="Rectángulo 35" fill="#c4d1e1" d="M72.784 108.577h3.028v45.513h-3.028z" />
-      <g data-name="Grupo 230">
-        <g data-name="Grupo 229" style="isolation:isolate">
-          <g data-name="Grupo 226">
-            <path data-name="Trazado 1001" d="M49.856 151.588l-.209 43.144-18.946-7.672.215-43.154z" fill="#96a9bd" />
-          </g>
-          <g data-name="Grupo 227">
-            <path data-name="Trazado 1002" d="M86.592 148.402l-36.736 3.186-18.94-7.681 36.73-3.177z" fill="#e4eef3" />
-          </g>
-          <g data-name="Grupo 228">
-            <path data-name="Trazado 1003" d="M86.376 191.556l-36.729 3.176.209-43.144 36.736-3.186z" fill="#c4d1e1" />
-          </g>
-        </g>
-      </g>
-      <path data-name="Rectángulo 36" fill="#96a9bd" d="M39.589 108.577h3.041v45.513h-3.041z" />
-      <g data-name="Grupo 414">
-        <path data-name="Trazado 1210" d="M57.995 121.763l59.075-21.831-.308-72.843L56.425-.004.005 27.433l.511 74.329z"
-          fill="#f7d350" />
-        <path data-name="Trazado 1211" d="M57.996 121.763l59.075-21.831-.309-72.843L56.425-.004l34.312 58.659z"
-          fill="#d6b033" />
-        <path data-name="Trazado 1212" d="M90.411 58.096L56.424-.004 16.89 56.717z" fill="#ffe482" />
-        <path data-name="Trazado 1213" d="M56.425-.004L.005 27.433l15.333 28.346z" fill="#fddd64" />
-        <path data-name="Trazado 1214" d="M14.595 56.86l-14.6-29.427.511 74.329z" fill="#f7d350" />
-        <path data-name="Trazado 1215" d="M91.154 57.018l25.607-29.929L56.425-.004z" fill="#e6c44e" />
-        <path data-name="Trazado 1216" d="M117.069 99.932l-.308-72.843-24.727 31.144z" fill="#cbad4e" />
-        <path data-name="Trazado 1217" d="M57.995 121.763L15.61 58.413.51 101.762z" fill="#fbdb59" />
-        <path data-name="Trazado 1218" d="M57.995 121.763l59.075-21.831-25.673-40.855z" fill="#d3b34e" />
-      </g>
-    </g>
+
     <g data-name="Grupo 409">
       <g data-name="Grupo 266">
         <path data-name="Trazado 1194"

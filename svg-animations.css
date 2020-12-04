@@ -1,0 +1,16 @@
+.svg-incluye {
+  /* width: 100%; */
+  margin-left: auto;
+  /* width: max-content; */
+}
+
+.svg-globo {
+  transform: translateY(750px);
+  position: relative;
+  z-index: -10;
+}
+
+.svg-globo.animate {
+  transform: translateY(0);
+  transition: 4s;
+}
