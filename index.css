@@ -854,7 +854,14 @@ header {
 
 .contacto-item {
   display: flex;
+  align-items: flex-start;
 }
+
+.contacto-item img{
+  width: 2rem;
+  margin-top: 6px;
+}
+
 .contacto-item:first-child {
   display: flex;
   margin-bottom: 4rem;
