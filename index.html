@@ -19,18 +19,20 @@
     <script src="./bower_components/jquery.counterup/jquery.counterup.min.js"></script>
   </head>
   <body>
+    <!-- Para el degradé -->
     <div class="background-container">
       <header>
         <img
-          class="portada-logo"
+          class="header-logo"
           src="./images//logo.svg"
           alt="Logo ovejabeja"
         />
       </header>
-
       <!-- PORTADA -->
       <div class="portada-container">
-        <div bp="grid">
+        <div class="portada-bg-behind"></div>
+        <div class="portada-bg-front"></div>
+        <div bp="grid" class="portada-content">
           <div bp="12 6@md" class="portada-image-container">
             <img src="./images/portada.svg" alt="Imágen de portada" />
           </div>
@@ -108,10 +110,7 @@
                 </div>
               </div>
               <div class="servicio-item-container">
-                <img
-                  src="./icons/estructura.svg"
-                  alt="Icono pintura digital"
-                />
+                <img src="./icons/estructura.svg" alt="Icono pintura digital" />
                 <div class="servicio-item-text">
                   <h6>ESTRUCTURA WEB</h6>
                   <p>Una perfecta navegación y usabilidad.</p>
@@ -146,104 +145,112 @@
       </div>
 
       <!-- ADEMAS -->
-
-      <div class="servicio-ademas">
-        <div bp="grid">
-          <div bp="12 6@md" class="servicio-image-container">
-            <img
-              src="./images/ademas-image.svg"
-              alt="Ilustracion de la sección"
-            />
-          </div>
-          <div bp="12 6@md first">
-            <div class="servicio-title">
-              <h1>Además</h1>
+      <div class="background-container-2">
+        <div class="opcional-bg-behind"></div>
+        <div class="opcional-bg-front"></div>
+        <div class="servicio-ademas">
+          <div bp="grid">
+            <div bp="12 6@md" class="servicio-image-container">
+              <img
+                src="./images/ademas-image.svg"
+                alt="Ilustracion de la sección"
+              />
             </div>
-            <div class="servicio-container">
-              <div class="servicio-item-container">
-                <img
-                  src="./icons/pintura-digital.svg"
-                  alt="Icono pintura digital"
-                />
-                <div class="servicio-item-text">
-                  <h6>RETOQUE FOTOGRÁFICO BÁSICO</h6>
-                  <p>
-                    Retocamos las fotografías que se van utilizar en la web.
-                  </p>
-                </div>
+            <div bp="12 6@md first last@md">
+              <div class="servicio-title">
+                <h1>Además</h1>
               </div>
-              <div class="servicio-item-container">
-                <img src="./icons/redes.svg" alt="Icono pintura digital" />
-                <div class="servicio-item-text">
-                  <h6>ENLACE A REDES SOCIALES</h6>
-                  <p>Vinculamos tu web a tus redes, para mas engagement.</p>
+              <div class="servicio-container">
+                <div class="servicio-item-container">
+                  <img
+                    src="./icons/pintura-digital.svg"
+                    alt="Icono pintura digital"
+                  />
+                  <div class="servicio-item-text">
+                    <h6>RETOQUE FOTOGRÁFICO BÁSICO</h6>
+                    <p>
+                      Retocamos las fotografías que se van utilizar en la web.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="servicio-item-container">
-                <img
-                  src="./icons/optimizacion-textos.svg"
-                  alt="Icono pintura digital"
-                />
-                <div class="servicio-item-text">
-                  <h6>OPTIMIZACIÓN DE TEXTOS</h6>
-                  <p>
-                    Perfecta compresión basada en la información proporcionada
-                    por el cliente.
-                  </p>
+                <div class="servicio-item-container">
+                  <img src="./icons/redes.svg" alt="Icono pintura digital" />
+                  <div class="servicio-item-text">
+                    <h6>ENLACE A REDES SOCIALES</h6>
+                    <!-- <p>Vinculamos tu web a tus redes, para mas engagement.</p> -->
+                  </div>
                 </div>
-              </div>
-              <div class="servicio-item-container">
-                <img src="./icons/cms.svg" alt="Icono pintura digital" />
-                <div class="servicio-item-text">
-                  <h6>CMS WORDPRESS CON PLANTILLA</h6>
-                  <p>Utilizamos unas plantillas complejas de Wordpress.</p>
+                <div class="servicio-item-container">
+                  <img
+                    src="./icons/optimizacion-textos.svg"
+                    alt="Icono pintura digital"
+                  />
+                  <div class="servicio-item-text">
+                    <h6>OPTIMIZACIÓN DE TEXTOS</h6>
+                    <p>
+                      Perfecta compresión basada en la información proporcionada
+                      por el cliente.
+                    </p>
+                  </div>
+                </div>
+                <div class="servicio-item-container">
+                  <img src="./icons/cms.svg" alt="Icono pintura digital" />
+                  <div class="servicio-item-text">
+                    <h6>CMS WORDPRESS CON PLANTILLA</h6>
+                    <p>
+                      Usamos plantillas fáciles de editar para que el usuario
+                      pueda mantenerla en un futuro.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- OPCIONAL -->
+        <!-- OPCIONAL -->
+        <div class="opcional-container">
+          <div class="opcional-content">
+            <div class="opcional-title">
+              <span class="caption">OPCIONAL</span>
+              <h1>Optimización SEO</h1>
+              <div class="opcional-subtitle">
+                <span>Con un precio especial de 350 €*</span>
+                <span>Precio sin IVA</span>
+              </div>
+            </div>
 
-      <div class="opcional-container">
-        <div class="opcional-title">
-          <span class="caption">OPCIONAL</span>
-          <h1>Optimización SEO</h1>
-          <div class="opcional-subtitle">
-            <span>Con un precio especial de 350 €*</span>
-            <span>Precio sin IVA</span>
-          </div>
-        </div>
-
-        <div class="opcional-items-container">
-          <div class="opcional-item-container">
-            <img src="./icons/lookfor.svg" alt="" />
-            <h6>PALABRAS CLAVES</h6>
-            <p>
-              Búsqueda y selección de palabras claves pertinentes para mejorar
-              el posicionamiento de la web.
-            </p>
-          </div>
-          <div class="opcional-item-container">
-            <img src="./icons/claves.svg" alt="" />
-            <h6>PALABRAS CLAVES</h6>
-            <p>
-              Insertar en cada página la estructura y el contenido pertinente.
-            </p>
-          </div>
-          <div class="opcional-item-container">
-            <img src="./icons/lenguaje.svg" alt="" />
-            <h6>ESTRUCTURA OPTIMIZADA</h6>
-            <p>
-              H1, H2, H3, Title, Meta, Interlinking, contenido de páginas,
-              favorable para SEO.
-            </p>
+            <div class="opcional-items-container">
+              <div class="opcional-item-container">
+                <img src="./icons/lookfor.svg" alt="" />
+                <h6>PALABRAS CLAVES</h6>
+                <p>
+                  Búsqueda y selección de palabras claves pertinentes para
+                  mejorar el posicionamiento de la web.
+                </p>
+              </div>
+              <div class="opcional-item-container">
+                <img src="./icons/claves.svg" alt="" />
+                <h6>Creamos Estrategias</h6>
+                <p>
+                  Basamos la estrategia de palabras para posicionar mejor la
+                  web, estudiando las oportunidades y atacando el mercado
+                  objetivo.
+                </p>
+              </div>
+              <div class="opcional-item-container">
+                <img src="./icons/lenguaje.svg" alt="" />
+                <h6>ESTRUCTURA OPTIMIZADA</h6>
+                <p>
+                  H1, H2, H3, Title, Meta, Interlinking, contenido de páginas,
+                  favorable para SEO.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- CONTACTO -->
 
     <div bp="grid" class="contacto-container">

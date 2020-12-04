@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 1920 2886">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.429" cy="0.324" r="0.361"
+            gradientTransform="translate(-0.216 -0.576) scale(1.503 2.075)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#333" />
+            <stop offset="0.258" stop-color="#2c2c2c" />
+            <stop offset="0.605" stop-color="#1b1b1b" />
+            <stop offset="1" />
+        </radialGradient>
+    </defs>
+    <rect id="Rectángulo_26" data-name="Rectángulo 26" width="1920" height="2886" fill="url(#radial-gradient)" />
+</svg>
